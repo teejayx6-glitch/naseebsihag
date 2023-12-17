@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Judo</title>
+</head>
+<body>
+    <header >
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <div class="text-black text-9xl  sm:text-5xl md:text-7xl lg:text-9xl xl:text-9xl font-extrabold ml-10 mt-1">
+                    Judo,
+                </div>
+            </div>
+            <div>
+                <a href="#" class="h-20 text-end text-2xl font-semibold leading-6 text-gray-900 menu-btn" onclick="toggleMenu()">Menu</a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="overlay hidden fixed inset-0 bg-black z-50" onclick="toggleMenu()"></div>
+    <div class="overlay-content hidden fixed inset-0 z-50 flex flex-col items-center justify-start">
+        <div class="text-center mt-17">
+            <a href="index.html" class="block my-4 text-6xl font-extrabold green-text hover:text-white transition-colors duration-300">Folio</a>
+           
+            <a href="contact.html" class="block my-4 text-6xl font-extrabold green-text hover:text-white transition-colors duration-300">Contact</a>
+            
+            <a href="aboutMe.html" class="block my-4 text-6xl font-extrabold green-text hover:text-white transition-colors duration-300">Aboutme</a>
+            <a href="folio.html" class="block my-4 text-6xl font-extrabold green-text hover:text-white transition-colors duration-300">InternshipReport</a>
+        </div>
+        <div class="text-base absolute bottom-0 right-0 mb-20 mr-40 flex flex-col">
+            <a href="https://www.instagram.com/naseebseucam/" target="_blank" class="block text-l font-extralight green-text hover:text-white transition-colors duration-300">Instagram,</a>
+            <a href="https://www.linkedin.com/in/naseebs/" target="_blank" class="block text-l font-extralight green-text hover:text-white transition-colors duration-300">Linkedin</a>
+            <a href="mailto:amnaseebsihag@gmail.com " class="block text-l font-extralight  green-text hover:text-white transition-colors duration-300">amnaseebsihag@gmail.com            </a>
+        </div>
+    <!-- <div class="absolute bottom-0 left-0 mb-20 ml-60">
+        <a href="index.html" class="block text-xl font-extralight text-white hover:text-green-800 transition-colors duration-300">CAPTION LOOKS GOOD</a>
+    </div> -->
+</div>
+    
+
+
+    
+    <div class="grid grid-cols-2 gap-2">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_1.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_2.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_3.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_4.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_5.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_6.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_7.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_8.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/Judo/Judo1024_9.jpg" alt="">
+        </div>
+        
+    
+        
+      
+    </div>
+
+   
+<footer class="bg-white text-black py-8 mt-10">
+    <div class="container mx-auto">
+        <div class="text-center">
+            
+            <p class="text-sm mt-6">&copy; 2023 Naseeb. All Rights Reserved.</p>
+
+           
+        </div>
+    </div>
+</footer>
+
+    <script>
+        function toggleMenu() {
+            const overlay = document.querySelector('.overlay');
+            const overlayContent = document.querySelector('.overlay-content');
+            const menuButton = document.querySelector('.menu-btn');
+
+            overlay.classList.toggle('hidden');
+            overlayContent.classList.toggle('hidden');
+        }
+
+        // Close the overlay if clicked anywhere on the document except the menu button
+        document.addEventListener('click', function(event) {
+            const overlay = document.querySelector('.overlay');
+            const overlayContent = document.querySelector('.overlay-content');
+            const menuButton = document.querySelector('.menu-btn');
+
+            if (event.target !== overlay && event.target !== menuButton) {
+                overlay.classList.add('hidden');
+                overlayContent.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>

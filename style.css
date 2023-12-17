@@ -1,0 +1,37 @@
+* {
+    
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .footer {
+        /* position: fixed; */
+        bottom: 10px;
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .green-text {
+        color: #008a10; /* Green color code */
+    }
+
+
+body {
+    font-family: Arial, sans-serif;
+
+ 
+    padding: 20px;
+}
+.grid{
+
+margin: 2% 2% 2% 2% ;
+}
+
+.custom-margin-top {
+    margin-top: 20px;
+}
+

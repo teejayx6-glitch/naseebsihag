@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>InternshipReport</title>
+</head>
+<body>
+    <header >
+        <nav class="mx-auto flex max-w-7xl items-center justify-end p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="index.html" class="-m-1.5 p-1.5">
+                    <img class="h-40 w-auto " src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#" class="h-20 text-end text-2xl font-semibold leading-6 text-gray-900 menu-btn" onclick="toggleMenu()">Menu</a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="overlay hidden fixed inset-0 bg-black z-50" onclick="toggleMenu()"></div>
+    <div class="overlay-content hidden fixed inset-0 z-50 flex flex-col items-center justify-start">
+        <div class="text-center mt-17">
+            <a href="index.html" class="block my-4 text-6xl font-extrabold green-text hover:text-white transition-colors duration-300">Folio</a>
+           
+            <a href="contact.html" class="block my-4 text-6xl font-extrabold green-text hover:text-white transition-colors duration-300">Contact</a>
+            
+            <a href="aboutMe.html" class="block my-4 text-6xl font-extrabold green-text hover:text-white transition-colors duration-300">Aboutme</a>
+            <a href="folio.html" class="block my-4 text-6xl font-extrabold green-text hover:text-white transition-colors duration-300">InternshipReport</a>
+        </div>
+        <div class="text-base absolute bottom-0 right-0 mb-20 mr-40 flex flex-col">
+            <a href="https://www.instagram.com/naseebseucam/" target="_blank" class="block text-l font-extralight green-text hover:text-white transition-colors duration-300">Instagram,</a>
+            <a href="https://www.linkedin.com/in/naseebs/" target="_blank" class="block text-l font-extralight green-text hover:text-white transition-colors duration-300">Linkedin</a>
+            <a href="mailto:amnaseebsihag@gmail.com " class="block text-l font-extralight  green-text hover:text-white transition-colors duration-300">amnaseebsihag@gmail.com            </a>
+        </div>
+    <!-- <div class="absolute bottom-0 left-0 mb-20 ml-60">
+        <a href="index.html" class="block text-xl font-extralight text-white hover:text-green-800 transition-colors duration-300">CAPTION LOOKS GOOD</a>
+    </div> -->
+</div>
+    
+
+
+    
+    <div class="grid grid-cols-2 gap-2">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0001.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0004.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0005.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0006.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0007.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0008.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0009.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0010.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0011.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0012.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0013.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0014.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0015.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0016.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0017.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0018.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0019.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0020.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0021.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0022.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0023.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0024.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0025.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0026.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0027.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0028.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0029.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0030.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0031.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0032.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0033.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0034.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0035.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0036.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0037.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0038.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0039.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0040.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0041.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0042.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0043.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0044.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0045.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0046.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0047.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0048.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0049.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0050.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0051.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0052.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0053.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0054.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0055.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0056.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0057.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0058.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0059.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0060.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0061.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0062.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0063.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0064.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0065.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0066.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0067.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0068.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0069.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0070.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0071.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0072.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0073.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0074.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0075.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0076.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0077.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0078.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0079.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0080.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0081.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0082.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0083.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0084.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0085.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0086.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0087.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0088.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0089.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0090.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0091.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0092.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0093.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0094.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0095.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0096.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0097.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0098.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0099.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0100.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0101.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0102.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0103.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0104.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0105.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0106.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0107.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0108.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0109.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0110.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0111.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0112.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0113.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0114.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0115.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0116.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0117.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0118.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0119.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0120.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0121.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0122.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0123.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0124.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0125.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0126.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="/images/folioImages/Internship Report_Naseeb_L6_page-0127.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0128.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0129.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0130.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0131.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0132.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0133.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0134.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0135.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0136.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0137.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="images/folioImages/Internship Report_Naseeb_L6_page-0138.jpg" alt="">
+        </div>
+        
+      
+    </div>
+
+   
+<footer class="bg-white text-black py-8 mt-10">
+    <div class="container mx-auto">
+        <div class="text-center">
+            
+            <p class="text-sm mt-6">&copy; 2023 Naseeb. All Rights Reserved.</p>
+
+           
+        </div>
+    </div>
+</footer>
+
+    <script>
+        function toggleMenu() {
+            const overlay = document.querySelector('.overlay');
+            const overlayContent = document.querySelector('.overlay-content');
+            const menuButton = document.querySelector('.menu-btn');
+
+            overlay.classList.toggle('hidden');
+            overlayContent.classList.toggle('hidden');
+        }
+
+        // Close the overlay if clicked anywhere on the document except the menu button
+        document.addEventListener('click', function(event) {
+            const overlay = document.querySelector('.overlay');
+            const overlayContent = document.querySelector('.overlay-content');
+            const menuButton = document.querySelector('.menu-btn');
+
+            if (event.target !== overlay && event.target !== menuButton) {
+                overlay.classList.add('hidden');
+                overlayContent.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
